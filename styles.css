@@ -655,3 +655,23 @@ section h2 {
         font-size: 0.8rem;
     }
 }
+
+/* Responsive video container */
+section video {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  background: #000;
+}
+
+/* For smaller screens */
+@media (max-width: 700px) {
+  section video {
+    max-width: 95vw;
+    border-radius: 8px;
+  }
+}
